@@ -1,6 +1,8 @@
 // npm modules
-import { useState } from 'react'
-import { Routes, Route, useNavigate } from 'react-router-dom'
+// import { useState } from 'react'
+import { Routes, Route, 
+  // useNavigate 
+} from 'react-router-dom'
 
 // pages
 // import Signup from './pages/Signup/Signup'
@@ -11,6 +13,7 @@ import Landing from './pages/Landing/Landing'
 
 // components
 import NavBar from './components/NavBar/NavBar'
+import Footer from './components/Footer/Footer'
 // import ProtectedRoute from './components/ProtectedRoute/ProtectedRoute'
 
 // services
@@ -42,6 +45,7 @@ function App() {
         <Route path="/bookings" element={<Landing />} />
         <Route path="/album" element={<Landing />} />
       </Routes>
+      <Footer />
     </>
   )
 }
