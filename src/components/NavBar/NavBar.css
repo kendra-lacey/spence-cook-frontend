@@ -1,0 +1,38 @@
+nav {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  box-sizing: border-box;
+  background-color: white;
+  min-height: 4rem;
+  max-height: 4rem;
+  max-width: 100%;
+  top: 0;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  padding: 0rem 1.5rem;
+  z-index: 9999; */
+  background-color: white;
+}
+
+#nav-ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.navlink {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+

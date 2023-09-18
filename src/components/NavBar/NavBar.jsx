@@ -1,22 +1,35 @@
 // npm modules
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+// import styled from 'styled-components'
 
-const NavBar = ({ user, handleLogout }) => {
+// styling
+
+import './NavBar.css'
+const linkStyle = {
+  color: "black",
+};
+
+// const navLink = styled.a`
+//   background-color: red;
+// `
+
+const NavBar = () => {
   return (
     <nav>
-      {user ?
-        <ul>
-          <li>Welcome, {user.name}</li>
-          <li><NavLink to="/profiles">Profiles</NavLink></li>
-          <li><NavLink to="" onClick={handleLogout}>LOG OUT</NavLink></li>
-          <li><NavLink to="/auth/change-password">Change Password</NavLink></li>
+        <ul id='nav-ul'>
+          <li className='navlink'>
+            <Link to="/" className='link' style={linkStyle}>Home</Link>
+          </li>
+          <li className='navlink'>
+            <Link to="/about" className='link' style={linkStyle}>About</Link>
+          </li>
+          <li className='navlink'>
+            <Link to="/bookings" className='link' style={linkStyle}>Bookings</Link>
+          </li>
+          <li className='navlink'>
+            <Link to="/album" className='link' style={linkStyle}>Album</Link>
+          </li>
         </ul>
-      :
-        <ul>
-          <li><NavLink to="/auth/login">Log In</NavLink></li>
-          <li><NavLink to="/auth/signup">Sign Up</NavLink></li>
-        </ul>
-      }
     </nav>
   )
 }
