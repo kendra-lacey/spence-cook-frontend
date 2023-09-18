@@ -3,13 +3,14 @@
   bottom: 0;
   background-color: black;
   width: 100vw;
+  height: 18vh;
   display: flex;
   justify-content: space-around;
   padding: 4vh 0;
 }
 
-#footer-contact {
-}
+/* #footer-contact {
+} */
 
 #footer-contact> * {
   margin: 0;
@@ -17,13 +18,25 @@
 
 #footer-contact>h2 {
   padding: 1vmin 0;
+  font-size: 3vh;
+  font-weight: 300;
 }
 
 #footer-contact>p>a {
   text-decoration: none;
   color: white;
+  font-weight: 200;
 }
 
 #footer-contact>p>a:hover {
   text-decoration: underline;
+}
+
+/* #footer-socials {} */
+
+#footer-socials>h2 {
+  font-size: 3vh;
+  font-weight: 300;
+  margin: 0;
+  padding: 1vmin 0;
 }
