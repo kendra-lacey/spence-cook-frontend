@@ -45,7 +45,11 @@
   padding: 1vmin 0;
 }
 
+.socialsLink {
+  width: 5vw;
+}
+
 
 @media screen and (max-width: 900px) {
-  
+
 }
