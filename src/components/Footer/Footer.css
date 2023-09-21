@@ -9,6 +9,10 @@
   padding: 4vh 0;
 }
 
+#footer>div {
+  padding: 0 5vw;
+}
+
 /* #footer-contact {
 } */
 
@@ -39,4 +43,9 @@
   font-weight: 300;
   margin: 0;
   padding: 1vmin 0;
+}
+
+
+@media screen and (max-width: 900px) {
+  
 }
