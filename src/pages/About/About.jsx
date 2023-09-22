@@ -9,7 +9,9 @@ const About = () => {
   return ( 
     <>
       <main>
-        <Carousel></Carousel>
+        <div id='carousel-page-container'>
+          <Carousel></Carousel>
+        </div>
       </main>
     </>
   );

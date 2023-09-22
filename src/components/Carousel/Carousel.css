@@ -1,5 +1,77 @@
+#carousel {
+  display: flex;
+  height: 75vh;
+  contain: content;
+  width: 75vw;
+  align-items: center;
+  justify-content: center;
+}
+
 .carousel-btn {
   border: none;
   background: none;
   cursor: pointer;
+  /* padding: 5%; */
+}
+
+.carousel-btn>img {
+  max-width: 10vw;
+}
+
+
+#carousel-img {
+  max-height: 60vh;
+  max-width: 60vh;
+  /* max-width: 50%; */
+  border-radius: 50px;
+}
+
+#carousel-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.about-gear {
+  height: 25vh;
+  position: absolute;
+  z-index: 1;
+}
+
+#gear-left {
+  top: 0;
+  left: 0;
+}
+
+#gear-right {
+  bottom: 0;
+  right: 0px;
+}
+
+@media screen and (max-width: 900px) {
+  #carousel {
+    width: 100vw;
+  }
+
+
+  #carousel-img {
+    max-height: 55vh;
+    max-width: 70vw;
+    /* max-width: 50%; */
+    border-radius: 50px;
+  }
+  
+
+  #gear-left {
+    top: 0vh;
+    left: 0;
+  }
+  
+  #gear-right {
+    bottom: 0vh;
+    right: 0;
+  }
 }
