@@ -29,6 +29,8 @@ const Carousel = () => {
   return ( 
     <>
       <div id="carousel">
+        <img id='gear-left' className='about-gear' src="./aboutGearLeft.png" alt="" />
+        <img id='gear-right' className='about-gear' src="./aboutGearRight.png" alt="" />
         <button id="left-btn" className="carousel-btn" onClick={handlePrev}><img src="./leftArrow.png" alt="" /></button>
         <div id="carousel-img-container">
           <img id="carousel-img" src={spenceImgs[idx]} alt="" />
