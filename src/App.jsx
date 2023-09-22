@@ -9,6 +9,8 @@ import { Routes, Route,
 // import Login from './pages/Login/Login'
 import Landing from './pages/Landing/Landing'
 import About from './pages/About/About'
+import Bookings from './pages/Bookings/Bookings'
+import Album from './pages/Album/Album'
 // import Profiles from './pages/Profiles/Profiles'
 // import ChangePassword from './pages/ChangePassword/ChangePassword'
 
@@ -43,8 +45,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/about" element={<About />} />
-        <Route path="/bookings" element={<Landing />} />
-        <Route path="/album" element={<Landing />} />
+        <Route path="/bookings" element={<Bookings />} />
+        <Route path="/album" element={<Album />} />
       </Routes>
       <Footer />
     </>
