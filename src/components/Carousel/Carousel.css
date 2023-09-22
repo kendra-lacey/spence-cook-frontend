@@ -1,5 +1,23 @@
+#carousel {
+  display: flex;
+  height: 70vh;
+}
+
 .carousel-btn {
   border: none;
   background: none;
   cursor: pointer;
+}
+
+#carousel-img {
+  max-height: 70vh;
+  max-width: 50vh;
+  border-radius: 50px;
+}
+
+#carousel-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
