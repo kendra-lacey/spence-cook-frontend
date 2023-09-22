@@ -36,7 +36,7 @@
 }
 
 .about-gear {
-  height: 20vw;
+  height: 25vh;
   position: absolute;
   z-index: 1;
 }
@@ -65,17 +65,13 @@
   }
   
 
-  .about-gear {
-    height: 20vh;
-  }
-
   #gear-left {
-    top: 5vh;
+    top: 0vh;
     left: 0;
   }
   
   #gear-right {
-    bottom: 5vh;
+    bottom: 0vh;
     right: 0;
   }
 }
