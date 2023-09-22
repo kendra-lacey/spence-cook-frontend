@@ -41,6 +41,76 @@
   z-index: 1;
 }
 
+.blob-div {
+  position: absolute;
+  z-index: 2;
+  width: 35%;
+  height: 20%;
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.big-blob-div {
+  position: absolute;
+  z-index: 2;
+  width: 65%;
+  height: 40%;
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.blob-div>p {
+  width: 70%;
+}
+.big-blob-div>p {
+  width: 89%;
+}
+
+#about-book-btn {
+  max-width: 70%;
+}
+
+#listen-btn {
+  max-width: 70%;
+}
+
+#blob-left {
+  background-image: url('./blobLeft.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 5%;
+  left: 15%;
+}
+#big-blob-left {
+  background-image: url('./blobLeft.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 3%;
+  left: 16%;
+}
+
+#blob-right {
+  background-image: url('./blobRight.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 5%;
+  right: 15%;
+}
+#big-blob-right {
+  background-image: url('./blobRight.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 2%;
+  right: 16%;
+}
+
 #gear-left {
   top: 0;
   left: 0;
@@ -49,6 +119,12 @@
 #gear-right {
   bottom: 0;
   right: 0px;
+}
+
+.moreLess {
+  color: #2E9D29;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 900px) {
