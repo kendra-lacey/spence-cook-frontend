@@ -8,6 +8,7 @@ import { Routes, Route,
 // import Signup from './pages/Signup/Signup'
 // import Login from './pages/Login/Login'
 import Landing from './pages/Landing/Landing'
+import About from './pages/About/About'
 // import Profiles from './pages/Profiles/Profiles'
 // import ChangePassword from './pages/ChangePassword/ChangePassword'
 
@@ -41,7 +42,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/about" element={<Landing />} />
+        <Route path="/about" element={<About />} />
         <Route path="/bookings" element={<Landing />} />
         <Route path="/album" element={<Landing />} />
       </Routes>
