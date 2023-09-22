@@ -8,7 +8,7 @@ import './About.css'
 const About = () => {
   return ( 
     <>
-      <main>
+      <main id='about-main'>
         <div id='carousel-page-container'>
           <Carousel></Carousel>
         </div>

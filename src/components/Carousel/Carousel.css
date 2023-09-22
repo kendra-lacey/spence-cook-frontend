@@ -1,10 +1,13 @@
 #carousel {
   display: flex;
-  height: 75vh;
+  min-height: 65vh;
+  max-height: 75vh;
   contain: content;
-  width: 75vw;
+  min-width: 50vw;
+  max-width: 75vw;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
 
 .carousel-btn {
@@ -20,8 +23,9 @@
 
 
 #carousel-img {
-  max-height: 60vh;
-  max-width: 60vh;
+  max-height: 70%;
+  max-width: 80%;
+  /* min-height: 100%; */
   /* max-width: 50%; */
   border-radius: 50px;
 }
@@ -44,8 +48,8 @@
 .blob-div {
   position: absolute;
   z-index: 2;
-  width: 35%;
-  height: 20%;
+  width: 25vw;
+  height: 20vh;
   text-align: center;
   font-size: 12px;
   display: flex;
@@ -85,7 +89,7 @@
   background-image: url('./blobLeft.png');
   background-size: contain;
   background-repeat: no-repeat;
-  top: 5%;
+  top: 2%;
   left: 15%;
 }
 #big-blob-left {
@@ -100,7 +104,7 @@
   background-image: url('./blobRight.png');
   background-size: contain;
   background-repeat: no-repeat;
-  bottom: 5%;
+  bottom: 3%;
   right: 15%;
 }
 #big-blob-right {
@@ -112,12 +116,12 @@
 }
 
 #gear-left {
-  top: 0;
+  top: -2%;
   left: 0;
 }
 
 #gear-right {
-  bottom: 0;
+  bottom: -2%;
   right: 0px;
 }
 
