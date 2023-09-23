@@ -18,7 +18,7 @@ body {
   min-height: 100vh;
   min-width: 100vw;
   /* max-height: 100vh; */
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
   color: black;
