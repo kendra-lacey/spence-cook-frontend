@@ -9,7 +9,11 @@
 }
 
 #embed-div {
-  
+  width: 100%;
+}
+
+iframe {
+  width: 50%;
 }
 
 #about-album-container {
@@ -30,4 +34,19 @@
 
 #album-info>p {
   margin: 10px;
+}
+
+#musicLink-container-a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 1% 0;
+}
+
+.musicLink-a {
+  width: 3%;
+}
+
+.iHeartLink-a {
+  width: 2.75%;
 }
