@@ -27,7 +27,7 @@
   /* margin-top: 10%; */
   position: sticky;
   padding: 5% 0;
-
+  
 }
 
 #embedLeft {
@@ -74,13 +74,14 @@ iframe {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  margin: 1% 0;
+  /* margin: 1% 0; */
+  /* height: 10vh; */
 }
 
 .musicLink-a {
-  width: 3%;
+  width: 100%;
 }
 
 .iHeartLink-a {
-  width: 2.75%;
+  width: 100%;
 }

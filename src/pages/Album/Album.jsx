@@ -16,10 +16,18 @@ const Album = () => {
             <iframe src="https://open.spotify.com/embed/album/0oynh8lZzhbRoI01aR1hCv?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
           </div>
         <div id='musicLink-container-a'>
-          <img className='musicLink-a' src="./Spotify.png" alt="" />
-          <img className='musicLink-a' src="./pandora.png" alt="" />
-          <img className='musicLink-a' src="./amazonMusic.png" alt="" />
-          <img className='iHeartLink-a' src="./iHeart.png" alt="" />
+        <a href="https://open.spotify.com/album/0oynh8lZzhbRoI01aR1hCv">
+            <img className='musicLink-a' src="./Spotify.png" alt="" />
+          </a>
+          <a href="https://www.pandora.com/artist/spence-cook/rearview/ALbbbw7dl5n6qqP">
+            <img className='musicLink-a' src="./pandora.png" alt="" />
+          </a>
+          <a href="https://www.amazon.com/dp/B0BNL23527/ref=sr_1_4?keywords=spence+cook+rearview&qid=1670773727&sprefix=Spence+Cook+%2Caps%2C69&sr=8-4">
+            <img className='musicLink-a' src="./amazonMusic.png" alt="" />
+          </a>
+          <a href="https://www.iheart.com/artist/spence-cook-39264727/">
+            <img className='iHeartLink-a' src="./iHeart.png" alt="" />
+          </a>
         </div>
       </div>
       <div id='about-album-container'>
