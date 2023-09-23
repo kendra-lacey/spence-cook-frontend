@@ -2,13 +2,23 @@
 import './Album.css'
 
 const Album = () => {
+
+
+
   return ( 
     <main id='album-main'>
       <div id='embed-div'>
         <h1>Rearview</h1>
         <p>Released in November 2022</p>
-        <div></div>
-        <div id='media-links'></div>
+        <div id='embed-container'>
+          <iframe src="https://open.spotify.com/embed/album/0oynh8lZzhbRoI01aR1hCv?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div id='musicLink-container-a'>
+          <img className='musicLink-a' src="./Spotify.png" alt="" />
+          <img className='musicLink-a' src="./pandora.png" alt="" />
+          <img className='musicLink-a' src="./amazonMusic.png" alt="" />
+          <img className='iHeartLink-a' src="./iHeart.png" alt="" />
+        </div>
       </div>
       <div id='about-album-container'>
         <h1>Behind the music...</h1>
