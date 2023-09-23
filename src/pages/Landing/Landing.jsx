@@ -4,7 +4,7 @@ import './Landing.css'
 
 const Landing = () => {
   return (
-    <main className={styles.container}>
+    <main id='landing-main' className={styles.container}>
       <img src="./SpenceCookLanding.png" alt="Stylized image of musician Spence Cook" className={styles.landingImg}/>
       <div id='splashTxt-container'>
         <h1 className='splashTxt'>Spence Cook</h1>
