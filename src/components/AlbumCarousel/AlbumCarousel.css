@@ -1,0 +1,13 @@
+#album-carousel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#album-carousel>button {
+  padding-top: 5%;
+}
+
+#album-carousel-img {
+  max-width: 35%;
+}

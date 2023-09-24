@@ -21,7 +21,7 @@ const Footer = () => {
           <a href="https://www.facebook.com/profile.php?id=100089221360368">
             <img className='socialsLink' src="./facebookImg.png" alt="" />
           </a>
-          <a href="https://www.instagram.com/spencesingsdotcom/">          <img className='socialsLink' src="./instagramImg.png" alt="" /></a>
+          <a href="https://www.instagram.com/spencecook_sings/">          <img className='socialsLink' src="./instagramImg.png" alt="" /></a>
         </div>
       </div>
     </div>
