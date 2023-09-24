@@ -48,8 +48,8 @@
   }
   
   #carousel-page-container {
-    min-height: 25vh;
-    max-height: 50vh;
+    /* min-height: 25vh; */
+    height: 35vh;
     min-width: 100vw;
     margin: 0;
     padding: 0;
