@@ -11,3 +11,9 @@
 #album-carousel-img {
   max-width: 35%;
 }
+
+@media screen and (max-width: 900px) {
+  #album-carousel-img {
+    max-width: 55%;
+  }
+}
