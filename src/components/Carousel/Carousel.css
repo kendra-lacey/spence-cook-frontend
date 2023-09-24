@@ -163,7 +163,7 @@
   
   #carousel-img {
     max-height: 55%;
-    max-width: 55vw;
+    max-width: 100%;
     /* max-width: 50%; */
     border-radius: 25px;
   }

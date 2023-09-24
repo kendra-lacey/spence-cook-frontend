@@ -13,12 +13,12 @@
 
 #album-back-nav {
   /* background-color: red; */
-  background: linear-gradient(0deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.7) 100%);
+  /* background: linear-gradient(0deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.7) 100%);
   height: 8vh;
   width: 100vw;
   position: fixed;
   z-index: 4;
-  top: 0;
+  top: 0; */
 }
 
 #embed-div {
