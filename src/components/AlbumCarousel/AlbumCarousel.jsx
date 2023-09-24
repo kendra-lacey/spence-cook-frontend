@@ -28,9 +28,9 @@ const AlbumCarousel = () => {
     <>
       <div id="album-carousel">
         <button id="left-btn" className="carousel-btn" onClick={handlePrev}><img src="./leftArrow.png" alt="" /></button>
-        <div id="carousel-img-container">
-          <img id="carousel-img" src={albumImgs[idx]} alt="" />
-        </div>
+          <img id="album-carousel-img" src={albumImgs[idx]} alt="" />
+        {/* <div id="carousel-img-container">
+        </div> */}
         <button id="right-btn" className="carousel-btn" onClick={handleNext}><img src="./rightArrow.png" alt="" /></button>
       </div>
     </>
