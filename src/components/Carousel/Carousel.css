@@ -48,10 +48,10 @@
 .blob-div {
   position: absolute;
   z-index: 2;
-  width: 25vw;
+  width: 30vw;
   height: 20vh;
   text-align: center;
-  font-size: 12px;
+  font-size: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,10 +60,11 @@
 .big-blob-div {
   position: absolute;
   z-index: 2;
-  width: 65%;
-  height: 40%;
+  /* width: 65%;
+  height: 40%; */
+  padding: 2%;
   text-align: center;
-  font-size: 12px;
+  font-size: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,30 +88,31 @@
 
 #blob-left {
   background-image: url('./blob.png');
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* background-repeat: no-repeat; */
   top: 2%;
   left: 15%;
 }
 #big-blob-left {
   background-image: url('./blob.png');
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* background-repeat: no-repeat; */
   top: 3%;
   left: 16%;
+  z-index: 3;
 }
 
 #blob-right {
   background-image: url('./blob.png');
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* background-repeat: no-repeat; */
   bottom: 3%;
   right: 15%;
 }
 #big-blob-right {
   background-image: url('./blob.png');
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* background-repeat: no-repeat; */
   bottom: 2%;
   right: 16%;
 }
