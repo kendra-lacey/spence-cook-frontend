@@ -120,4 +120,80 @@ iframe {
 
 @media screen and (max-width: 900px) {
 
+  #embed-container {
+    min-height: 40vh;
+  }
+
+  iframe {
+    width: 80%;
+    height: 25vh;
+    margin-top: 5%;
+  }
+
+  #embedLeft {
+    position: absolute;
+    z-index: -2;
+    max-height: 90%;
+    left: -4%;
+    top: -20%;
+  }
+  #embedRight {
+    position: absolute;
+    z-index: -2;
+    max-height: 100%;
+    right: -10%;
+    top: 0%;
+  }
+
+  #about-album-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 130%;
+  }
+
+  #album-left {
+    position: absolute;
+    z-index: -2;
+    max-width: 54%;
+    left: 10%;
+    top: -15%;
+  }
+  #album-right {
+    position: absolute;
+    z-index: -2;
+    max-width: 50%;
+    right: 0%;
+    bottom: 20%;
+  }
+  
+  #album-carousel-container {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    left: -10%;
+    top: 70%;
+    overflow: hidden;
+    padding-bottom: 10%;
+  }
+  
+  #album-info {
+    width: 65%;
+    font-size: 16px;
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    border-radius: 25px;
+    box-shadow: 3px 5px 5px 1px #000000aa;
+    position: absolute;
+    top: 170%;
+    right: 3%;
+  }
+  
+  #album-info>p {
+    margin: 10px;
+  }
+
+
 }
