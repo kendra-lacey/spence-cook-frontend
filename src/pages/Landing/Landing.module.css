@@ -1,8 +1,8 @@
 .container {
-  display: flex;
+  /* display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .landingImg {
@@ -10,6 +10,10 @@
   /* max-height: 80vh; */
   /* z-index: -1; */
   /* position: absolute; */
+  /* max-width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 15%; */
 }
 
 main {
@@ -17,10 +21,10 @@ main {
   /* height: 100vh; */
   /* overflow: hidden; */
   /* padding-bottom: 15vh; */
-  height: 100%;
+  /* height: 100%; */
 }
 
-#splashTxt-container {
+/* #splashTxt-container {
   z-index: 5;
   position: relative;
   top: 15;
@@ -34,4 +38,4 @@ main {
 
 .splashTxt {
   color: black;
-}
+} */

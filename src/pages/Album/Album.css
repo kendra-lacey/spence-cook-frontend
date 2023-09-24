@@ -144,3 +144,7 @@ iframe {
 #album-info>p {
   margin: 10px;
 }
+
+@media screen and (max-width: 900px) {
+
+}

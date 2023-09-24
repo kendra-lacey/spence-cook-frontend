@@ -1,15 +1,22 @@
 #landing-main {
   min-height: 100%;
   margin: 0;
-  /* margin-top: 8vh; */
-  /* margin-bottom: 18vh; */
+  padding-bottom: 18vh;
+  position: relative;
+}
+
+#landing-img {
+  max-width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 15%;
 }
 
 #splashTxt-container {
   z-index: 5;
   position: absolute;
-  top: 32%;
-  right: 16%;
+  top: 160%;
+  right: 20%;
   /* color: black; */
   /* background-color: red; */
   width: 30%;
@@ -17,6 +24,17 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+#splash-title {
+  font-size: 52px;
+  font-weight: 900;
+  margin: 0;
+}
+
+#splashTxt {
+  font-weight: 400;
+  font-size: 22px;
 }
 
 #splashTxt-container> * {
@@ -51,3 +69,82 @@
   justify-content: center;
 }
 
+
+
+@media screen and (max-width: 900px) {
+
+  #landing-main {
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 8%;
+    padding-bottom: 14%;
+    position: relative;
+  }
+  
+
+  #landing-img {
+    max-width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 35%;
+  }
+
+  #splashTxt-container {
+    z-index: 3;
+    position: absolute;
+    top: 42%;
+    right: 20%;
+    /* color: black; */
+    /* background-color: red; */
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #splash-title {
+    font-size: 5vmin;
+    font-weight: 900;
+    margin: 0;
+  }
+  
+  #splashTxt {
+    font-weight: 400;
+    font-size: 2.5vmin;
+  }
+  
+  #splashTxt-container> * {
+    color: black;
+  }
+  
+  /* #bookBtn {
+    border-radius: 15px;
+    width: 20vw;
+    height: 5vh;
+    font-size: 3.5vh;
+    background-color: #BBCDB5;
+    border-color: #2E9D29;
+    box-shadow: 0 10px #2E9D29;
+  } */
+  
+  #book-btn {
+    width:30vmin;
+  }
+  
+  .musicLink {
+    width: 7vmin;
+  }
+  
+  .iHeartLink {
+    width: 6.5vw;
+  }
+  
+  #musicLink-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+
+}
