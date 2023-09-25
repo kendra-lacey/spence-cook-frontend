@@ -94,7 +94,7 @@ iframe {
 #album-carousel-container {
   width: 100%;
   position: absolute;
-  /* z-index: 1;  this was causing issues  */
+  z-index: 1;
   left: -10%;
   top: 70%;
   overflow: hidden;
