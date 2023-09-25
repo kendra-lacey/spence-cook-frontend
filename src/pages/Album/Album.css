@@ -94,7 +94,7 @@ iframe {
 #album-carousel-container {
   width: 100%;
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   left: -10%;
   top: 70%;
   overflow: hidden;
@@ -112,6 +112,7 @@ iframe {
   position: absolute;
   top: 125%;
   right: 22%;
+  z-index: 2;
 }
 
 #album-info>p {
@@ -171,7 +172,6 @@ iframe {
   #album-carousel-container {
     width: 100%;
     position: absolute;
-    z-index: -1;
     left: -10%;
     top: 70%;
     overflow: hidden;
