@@ -4,7 +4,8 @@ nav {
   width: 100vw;
   top: 0;
   /* background-color: red; */
-  height: 8%;
+  /* min-height: 5%; */
+  height: 5%;
   display: flex;
   align-items: center;
   z-index: 5;
@@ -31,6 +32,7 @@ nav {
 
 .link:hover {
   text-decoration: underline;
+  color: #2E9D29;
 }
 
 
