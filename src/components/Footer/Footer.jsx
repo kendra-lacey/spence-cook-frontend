@@ -17,11 +17,11 @@ const Footer = () => {
       </div>
       <div id='footer-socials'>
         <h2>Social Media</h2>
-        <div id='socialIcon-container'>
+        <div id='socialsLink-container'>
           <a href="https://www.facebook.com/profile.php?id=100089221360368">
-            <img className='socialsLink' src="./facebookImg.png" alt="" />
+            <img className='socialsLink' src="./facebookImg.svg" alt="" />
           </a>
-          <a href="https://www.instagram.com/spencecook_sings/">          <img className='socialsLink' src="./instagramImg.png" alt="" /></a>
+          <a href="https://www.instagram.com/spencecook_sings/">          <img className='socialsLink' src="./instagramImg.svg" alt="" /></a>
         </div>
       </div>
     </div>
