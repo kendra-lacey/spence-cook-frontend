@@ -1,19 +1,40 @@
 #album-carousel {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #album-carousel>button {
-  padding-top: 5%;
+  /* padding-top: 5%; */
+  max-width: 25%;
+}
+
+#album-carousel>button>img {
+  min-width: 5vmin;
+  max-width: 10vmin;
 }
 
 #album-carousel-img {
-  max-width: 35%;
+  min-width: 35%;
+  max-width: 50%;
+}
+
+#left-album-btn {
+  text-align: right;
+}
+#right-album-btn {
+  text-align: left;
 }
 
 @media screen and (max-width: 900px) {
   #album-carousel-img {
     max-width: 55%;
+  }
+
+  #left-album-btn {
+    text-align: center;
+  }
+  #right-album-btn {
+    text-align: center;
   }
 }
