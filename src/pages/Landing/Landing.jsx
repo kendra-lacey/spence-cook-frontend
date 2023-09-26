@@ -4,10 +4,20 @@ import './Landing.css'
 const Landing = () => {
   return (
     <main id='landing-main'>
-      <img id='landing-img' src="./SpenceCookLanding.png" alt="Stylized image of musician Spence Cook"/>
+      <div id='backBack' className='landing-background'>
+        {/* <img id='landingBackImg' src="./spenceLandingBack.png" alt="" /> */}
+        <img id='spenceGear' src="./spenceGear.png" alt="" />
+      </div>
+      <div className='landing-background'>
+        <div>
+          <img id='landing-img' src="./landingImg.png" alt="Stylized image of musician Spence Cook"/>
+        </div>
+      </div>
       <div id='splashTxt-container'>
-        <h1 id='splash-title' className='splashTxt'>Spence Cook</h1>
-        <p id='splashTxt'>Life's detour led Spence away from his singing dreams, but mid-life served as his GPS back to the stage.</p>
+        <div>
+          <h1 id='splash-title' className='splashTxt'>Spence Cook</h1>
+          <p id='splashTxt'>Life's detour led Spence away from his singing dreams, but mid-life served as his GPS back to the stage.</p>
+        </div>
         <div id='musicLink-container'>
           <a href="https://open.spotify.com/album/0oynh8lZzhbRoI01aR1hCv">
             <img className='musicLink' src="./Spotify.svg" alt="" />

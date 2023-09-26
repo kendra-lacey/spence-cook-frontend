@@ -27,11 +27,11 @@ const AlbumCarousel = () => {
   return ( 
     <>
       <div id="album-carousel">
-        <button id="left-btn" className="carousel-btn" onClick={handlePrev}><img src="./leftArrow.png" alt="" /></button>
+        <button id="left-album-btn" className="carousel-btn" onClick={handlePrev}><img src="./leftArrow.svg" alt="" /></button>
           <img id="album-carousel-img" src={albumImgs[idx]} alt="" />
         {/* <div id="carousel-img-container">
         </div> */}
-        <button id="right-btn" className="carousel-btn" onClick={handleNext}><img src="./rightArrow.png" alt="" /></button>
+        <button id="right-album-btn" className="carousel-btn" onClick={handleNext}><img src="./rightArrow.svg" alt="" /></button>
       </div>
     </>
   );

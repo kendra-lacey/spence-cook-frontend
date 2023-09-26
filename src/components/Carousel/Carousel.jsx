@@ -6,7 +6,7 @@ const Carousel = () => {
   const [idx, setIdx] = useState(0)
   // const [isMoreTop, setIsMoreTop] = useState(false)
   // const [isMoreBttm, setIsMoreBttm] = useState(false)
-  const length = 6
+  const length = 7
 
   const handlePrev = () => {
     const newIdx = idx -1
@@ -34,6 +34,7 @@ const Carousel = () => {
   // }
 
   const spenceImgs = [
+    './spence6.png',
     './spence0.png',
     './spence1.png',
     './spence2.png',
