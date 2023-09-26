@@ -68,7 +68,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
 
   #footer {
     position: fixed;
@@ -79,7 +79,6 @@
     height: 14%;
     display: flex;
     justify-content: space-around;
-    /* padding: 4vh 0; */
     color: white;
   }
   
@@ -115,12 +114,12 @@
   }
   
   #footer-socials {
-    /* margin: 0;
+    margin: 0;
     padding-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; */
+    justify-content: flex-start;
   }
   
   #footer-socials>h2 {
@@ -139,4 +138,4 @@
   .socialsLink {
     width: 10vmin;
   }
-}
+} */
