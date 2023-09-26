@@ -1,7 +1,7 @@
 #landing-main {
   min-height: 100%;
   margin: 0;
-  padding-bottom: 18vh;
+  padding-bottom: 17vmin;
   position: relative;
 }
 
@@ -56,17 +56,17 @@
 }
 
 .musicLink {
-  width: 5vw;
+  min-width: 6vmin;
+  max-width: 10vmin;
 }
 
-.iHeartLink {
-  width: 4.5vw;
-}
 
 #musicLink-container {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -132,7 +132,7 @@
     width:30vmin;
   }
   
-  .musicLink {
+  /* .musicLink {
     width: 7vmin;
   }
   
@@ -144,7 +144,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-  }
+  } */
 
 
 }

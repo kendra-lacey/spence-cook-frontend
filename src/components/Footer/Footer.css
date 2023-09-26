@@ -4,12 +4,12 @@
   bottom: 0;
   background-color: black;
   width: 100%;
-  max-height: 10vh;
+  max-height: 17vmin;
   display: flex;
   justify-content: space-around;
   /* padding: 4vh 0; */
   color: white;
-  padding: 2vh 0;
+  padding: 2vmin 0;
 }
 
 
@@ -63,7 +63,8 @@
 }
 
 .socialsLink {
-  max-width: 5vw;
+  min-width: 6vmin;
+  max-width: 10vmin;
 }
 
 
