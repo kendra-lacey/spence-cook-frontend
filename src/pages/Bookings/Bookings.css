@@ -64,6 +64,10 @@
   justify-content: center;
 }
 
+.loc-txt {
+  margin: 2% 0;
+}
+
 #book-btn-container {
   width: 100%;
   text-align: center;
