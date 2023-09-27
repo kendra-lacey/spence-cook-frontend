@@ -24,13 +24,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1vh;
+  gap: 1vmin;
 }
 
 
 
 #blob-book {
-  background-image: url('./bookBlob.png');
+  /* background-image: url('./bookBlob.png');
   background-size: contain;
   background-repeat: no-repeat;
   min-height: 30vh;
@@ -40,19 +40,37 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+  max-width: 75%;
+  padding: 1vmin;
+  text-align: center;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid #2E9D29;
 }
 
 #blob-book>p {
-  width: 70%;
+  width: 100%;
 }
 
-#book-loc {
-  width: 50%;
+.loc-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#book-btn-container {
+  width: 100%;
+  text-align: center;
 }
 
 #book-page-btn {
-  width: 70%;
+  max-width: 30%;
 }
 
 #book-body-container>a {
@@ -61,36 +79,79 @@
 
 @media screen and (max-width: 900px) {
   #book-back-container {
-    height: 100%;
+    height: 95vh;
+    /* max-height: 90vh; */
     background-size: cover;
   }
 
   #book-body-container {
     margin-top: 8vh;
     width: 100%;
-    height: 100%;
+    height: 82vh;
     position: absolute;
     right: 0;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content:  flex-start;
+    align-items: flex-end;
+    justify-content:  center;
     gap: 1vh;
+    padding: 10vmin 5vmin;
   }
-  
-  
-  #book-page-btn {
-    width: 100%;
-    margin-top: 50%;
-  }
-
-
 
   #blob-book {
+    max-width: 60%;
+    /* padding: 1vmin; */
+    /* text-align: center; */
+    font-size: 16px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid #2E9D29; */
+    margin-bottom: 1%;
+  }
+
+  #book-btn-container {
+    padding-bottom: 7%;
+  }
+
+  #book-page-btn {
+    max-width: 70%;
+  }
+  
+  
+  /* #book-page-btn {
+    width: 100%;
+    margin-top: 50%;
+  } */
+
+
+
+  /* #blob-book {
     margin-top: 5%;
     min-width: 60vw;
     min-height: 20vh;
     justify-self: flex-start;
     align-self: flex-start;
+  } */
+}
+
+@media screen and (max-width: 600px) {
+  #blob-book {
+    font-size: 12px;
+  }
+
+  .loc-txt {
+    font-size: 12px;
+  }
+
+  #book-btn-container {
+    padding-bottom: 10%;
+  }
+
+  #book-page-btn {
+    max-width: 80%;
   }
 }
