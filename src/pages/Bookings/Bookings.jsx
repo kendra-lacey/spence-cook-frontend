@@ -14,6 +14,10 @@ const Bookings = () => {
             <img className='loc-icon' src="./locationIcon.svg" alt="" />
             <p className='loc-txt'>Asbury Park, New Jersey</p>
           </div>
+          <div id='loc2' className='loc-container'>
+            <img className='loc-icon' src="./locationIcon.svg" alt="" />
+            <p className='loc-txt'>Roxbury, New Jersey</p>
+          </div>
         </div>
         <div id='book-btn-container'>
           <a id='book-a' href="mailto:SPENCE@SPENCESINGS.com"><img id='book-page-btn' src="./bookingBtn.svg" alt="" /></a>
