@@ -4,14 +4,14 @@ import './Landing.css'
 const Landing = () => {
   return (
     <main id='landing-main'>
-      <div id='backBack' className='landing-background'>
-        {/* <img id='landingBackImg' src="./spenceLandingBack.png" alt="" /> */}
+      {/* <div id='backBack' className='landing-background'>
+        <img id='landingBackImg' src="./spenceLandingBack.png" alt="" />
         <img id='spenceGear' src="./spenceGear.png" alt="" />
-      </div>
+      </div> */}
       <div className='landing-background'>
-        <div>
+        {/* <div> */}
           <img id='landing-img' src="./landingImg.png" alt="Stylized image of musician Spence Cook"/>
-        </div>
+        {/* </div> */}
       </div>
       <div id='splashTxt-container'>
         <div>
