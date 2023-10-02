@@ -41,9 +41,9 @@
   max-height: 80vh;
   max-width: 100vw;
   /* position: relative; */
-  z-index: -5;
+  /* z-index: -5; */
   /* top: 5vh; */
-  left: 5vw;
+  /* left: 5vw; */
   /* padding-top: 5vh; */
   /* margin-top: 5vh; */
 }
@@ -141,53 +141,37 @@
 
 @media screen and (max-width: 900px) {
 
-  /* #landing-main {
-    min-height: 100vh;
-    margin: 0;
-    padding-top: 8%;
-    padding-bottom: 14%;
-    position: relative;
-  } */
-  
+  .landing-background {
+    padding-left: 2vw;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 
-  /* #landing-img {
-    max-width: 100%;
-    position: absolute;
-    z-index: -1;
-    top: 35%;
-  } */
-
-  /* #splashTxt-container {
-    z-index: 3;
-    position: absolute;
-    top: 42%;
-    right: 20%;
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  } */
-  
-  /* #splash-title {
-    font-size: 5vmin;
+  #splash-title {
+    font-size: 42px;
     font-weight: 900;
     margin: 0;
-  } */
+  }
   
-  /* #splashTxt {
+  #splashTxt {
     font-weight: 400;
-    font-size: 2.5vmin;
-  } */
-  
-  /* #splashTxt-container> * {
-    color: black;
-  } */
-  
-  
-  /* #book-btn {
-    width:30vmin;
-  } */
+    font-size: 16px;
+    margin: 2.5%;
+  }
 
 
+}
+
+@media screen and (max-width: 600px) {
+  #splash-title {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+  }
+  
+  #splashTxt {
+    font-weight: 400;
+    font-size: 12px;
+    margin: 2.5%;
+  }
 }
