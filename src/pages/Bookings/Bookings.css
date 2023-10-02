@@ -94,80 +94,50 @@
 
 @media screen and (max-width: 900px) {
   #book-back-container {
-    height: 95vh;
-    /* max-height: 90vh; */
-    background-size: cover;
+    height: 80vh;
   }
 
   #book-body-container {
-    margin-top: 8vh;
-    width: 100%;
-    height: 82vh;
-    position: absolute;
-    right: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content:  center;
-    gap: 1vh;
-    padding: 10vmin 5vmin;
+    width: 55%;
+    left: 5%;
+    gap: 5vmin;
   }
 
   #blob-book {
-    max-width: 60%;
-    /* padding: 1vmin; */
-    /* text-align: center; */
+    max-width: 100%;
     font-size: 16px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    background-color: white;
-    border-radius: 20px;
-    border: 5px solid #2E9D29; */
-    margin-bottom: 1%;
-  }
-
-  #book-btn-container {
-    padding-bottom: 7%;
   }
 
   #book-page-btn {
-    max-width: 70%;
+    max-width: 60%;
   }
-  
-  
-  /* #book-page-btn {
-    width: 100%;
-    margin-top: 50%;
-  } */
-
-
-
-  /* #blob-book {
-    margin-top: 5%;
-    min-width: 60vw;
-    min-height: 20vh;
-    justify-self: flex-start;
-    align-self: flex-start;
-  } */
 }
 
 @media screen and (max-width: 600px) {
+  #book-back-container {
+    height: 77vh;
+  }
+
+  #book-body-container {
+    width: 70%;
+    left: 5%;
+    gap: 5vmin;
+  }
+
   #blob-book {
     font-size: 12px;
   }
 
-  .loc-txt {
+  /* .loc-txt {
     font-size: 12px;
-  }
+  } */
 
-  #book-btn-container {
+  /* #book-btn-container {
     height: 77vh;
     padding-bottom: 10%;
-  }
+  } */
 
-  #book-page-btn {
+  /* #book-page-btn {
     max-width: 80%;
-  }
+  } */
 }
