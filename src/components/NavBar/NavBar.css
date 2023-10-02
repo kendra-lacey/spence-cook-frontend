@@ -36,6 +36,12 @@ nav {
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
+  nav {
+    height: 8vh;
+  }
 
+  .link {
+    font-size: 20px;
+  }
 }

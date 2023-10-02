@@ -18,10 +18,12 @@ const Footer = () => {
       <div id='footer-socials'>
         <h2>Social Media</h2>
         <div id='socialsLink-container'>
-          <a href="https://www.facebook.com/profile.php?id=100089221360368">
+          <a className='socials-a' href="https://www.facebook.com/profile.php?id=100089221360368">
             <img className='socialsLink' src="./facebookImg.svg" alt="" />
           </a>
-          <a href="https://www.instagram.com/spencecook_sings/">          <img className='socialsLink' src="./instagramImg.svg" alt="" /></a>
+          <a className='socials-a' href="https://www.instagram.com/spencecook_sings/">
+            <img className='socialsLink' src="./instagramImg.svg" alt="" />
+          </a>
         </div>
       </div>
     </div>
