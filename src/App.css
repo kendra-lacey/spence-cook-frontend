@@ -42,5 +42,11 @@ main {
   padding-bottom: 15vh;
 }
 
+@media screen and (max-width: 600px) {
+  main {
+    padding-top: 8vh;
+  }
+}
+
 
 
