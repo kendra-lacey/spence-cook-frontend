@@ -12,11 +12,15 @@ const Bookings = () => {
           <p>Do you have questions, want to book a show, or collaborate on a new piece? Reach out, and let's make music happen.</p>
           <div id='loc1' className='loc-container'>
             <img className='loc-icon' src="./locationIcon.svg" alt="" />
-            <p className='loc-txt'>Asbury Park, New Jersey</p>
+            <p className='loc-txt'>
+              <a className='loc-link' href="https://maps.app.goo.gl/FQrHDNyRiXCw7arL9">Asbury Park, New Jersey</a>
+            </p>
           </div>
           <div id='loc2' className='loc-container'>
             <img className='loc-icon' src="./locationIcon.svg" alt="" />
-            <p className='loc-txt'>Roxbury, New Jersey</p>
+            <p className='loc-txt'>
+              <a className='loc-link' href="https://maps.app.goo.gl/1tWUF5p49v8maowR9">Roxbury, New Jersey</a>
+            </p>
           </div>
         </div>
         <div id='book-btn-container'>
