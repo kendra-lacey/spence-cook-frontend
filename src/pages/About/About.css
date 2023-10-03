@@ -106,22 +106,38 @@
   .expanded {
     font-size: 16px;
   }
+
+  #about-book-btn {
+    width: 10vmin;
+  }
+  
+  #listen-btn {
+    width: 10vmin;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .expandable {
     width: 70%;
-    font-size: 12px;
+    font-size: 14px;
     border: 2.5px solid #2E9D29;
   }
   .expanded {
     width: 70%;
-    font-size: 12px;
+    font-size: 14px;
     border: 2.5px solid #2E9D29;
   }
 
   .about-gear {
     width: 30vmin;
+  }
+
+  #about-book-btn {
+    width: 14vmin;
+  }
+  
+  #listen-btn {
+    width: 14vmin;
   }
 }
 

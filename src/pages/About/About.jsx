@@ -75,7 +75,7 @@ const About = () => {
                   My greatest motivation always stems from kindness and fostering connections that reveal our commonalities as people, transcending our differences.
                   <span> </span>
                   <a onClick={expandBttmTxt} className="moreLess">less</a></p>
-              <a href="/album"><img id='listen-btn' src="./listenBtn.svg" alt="" /></a>
+              <a href="/album"><img id='about-book-btn' src="./aboutBook.svg" alt="" /></a>
             </div>
             </>) 
             : 
