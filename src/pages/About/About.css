@@ -13,32 +13,34 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgba(255,255,255,0.4);
+  margin-top: 5%;
 }
 
 .gear-text {
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+  width: 100%;
   justify-content: center;
   align-items: center;
   position: relative;
 }
 
 .about-gear {
-  width: 20vmin;
+  width: 18vw;
   position: absolute;
   top: 0;
   z-index: -1;
 }
 
 .gear-expandable-spacer {
-  width: 100%;
-  height: 11vmin;
+  /* width: 100%; */
+  height: 10vmin;
 }
 
 .expandable {
-  width: 78%;
-  padding: 1vmin;
+  width: 78vw;
+  padding: 2%;
   text-align: center;
   font-size: 24px;
   display: flex;
@@ -48,6 +50,8 @@
   background-color: white;
   border-radius: 20px;
   border: 2px solid #2E9D29;
+  /* position: relative;
+  top: 1vh; */
 }
 .expanded {
   width: 78%;
@@ -57,7 +61,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-color: white;
   border-radius: 20px;
   border: 2px solid #2E9D29;
@@ -80,13 +84,14 @@
 
 #gear-music {
   align-self: flex-start;
-  left: 0;
+  left: 1%;
 }
 
 #gear-artist {
   align-self: flex-end;
-  right: 0;
+  right: 1%;
 }
+
 
 #artist-div {
   margin-bottom: 5%;
@@ -99,12 +104,18 @@
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .expandable {
-    font-size: 16px;
+    width: 70%;
+    font-size: 20px;
   }
   .expanded {
-    font-size: 16px;
+    width: 70%;
+    font-size: 20px;
+  }
+
+  .gear-expandable-spacer {
+    height: 11vmin;
   }
 
   #about-book-btn {
@@ -113,31 +124,92 @@
   
   #listen-btn {
     width: 10vmin;
+  }
+
+  #gear-music {
+    left: 0%;
+  }
+  
+  #gear-artist {
+    right: 0%;
+  }
+
+  .about-gear {
+    width: 28vw;
   }
 }
 
 @media screen and (max-width: 600px) {
   .expandable {
-    width: 70%;
+    width: 75%;
     font-size: 14px;
     border: 2.5px solid #2E9D29;
+    position: relative;
+    top: 2vh;
   }
   .expanded {
-    width: 70%;
+    width: 75%;
     font-size: 14px;
     border: 2.5px solid #2E9D29;
+    position: relative;
+    top: 2vh;
   }
 
   .about-gear {
-    width: 30vmin;
+    width: 35vmin;
   }
 
   #about-book-btn {
-    width: 14vmin;
+    width: 16vmin;
   }
   
   #listen-btn {
-    width: 14vmin;
+    width: 16vmin;
+  }
+
+  #expandable-music {
+    align-self: flex-end;
+    right: 5%;
+  }
+
+  #expanded-music {
+    position: relative;
+    align-self: flex-end;
+    right: 5%;
+  }
+
+  #expandable-artist {
+    position: relative;
+    align-self: flex-start;
+    left: 5%;
+  }
+
+  #expanded-artist {
+    position: relative;
+    align-self: flex-start;
+    left: 5%;
+  }
+
+  #music-div {
+    padding-bottom: 5%;
+  }
+
+  #artist-div {
+    padding-bottom: 5%;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  .expandable {
+    font-size: 28px;
+  }
+
+  .expanded {
+    font-size: 28px;
+  }
+
+  .gear-expandable-spacer {
+    height: 13vmin;
   }
 }
 

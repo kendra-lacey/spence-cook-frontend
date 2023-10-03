@@ -9,7 +9,11 @@
   justify-content: space-around;
   height: 60vh;
   /* margin: 5% 0 5% 0; */
-  margin-top: 5%;
+  margin: 5% 0 5% 0;
+  /* & If he wants a background to the container to fill space: *
+  /* border-radius: 30px; */
+  /* margin: 5% 1% 0 1%; */
+  
 }
 
 .btn-container {
@@ -37,9 +41,6 @@
   justify-content: center;
   height: 100%;
   width: 100%;
-  /* & If he wants a background to the container to fill space: */
-  background-color: rgba(55,55,55,0.5);
-  border-radius: 30px;
 }
 
 #carousel-img {
