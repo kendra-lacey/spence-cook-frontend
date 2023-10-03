@@ -92,6 +92,26 @@
   text-align: center;
 }
 
+@media screen and (max-width: 1600px) {
+  #book-back-container {
+    height: 80vh;
+  }
+
+  #book-body-container {
+    width: 45%;
+    left: 5%;
+    gap: 5vmin;
+  }
+
+  #blob-book {
+    max-width: 100%;
+    font-size: 24px;
+  }
+
+  #book-page-btn {
+    max-width: 60%;
+  }
+}
 @media screen and (max-width: 900px) {
   #book-back-container {
     height: 80vh;
@@ -105,11 +125,11 @@
 
   #blob-book {
     max-width: 100%;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   #book-page-btn {
-    max-width: 60%;
+    max-width: 50%;
   }
 }
 
