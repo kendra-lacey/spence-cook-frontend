@@ -59,37 +59,42 @@ const About = () => {
               </a>
             </div>
             )}
-          </div>
+        </div>
           <div id='carousel-page-container'>
             <Carousel></Carousel>
           </div>
-          <div id="artist-div" className="gear-text">
-            <img id='gear-artist' className='about-gear' src="./aboutGearRight.svg" alt="" />
-            <div className='gear-expandable-spacer'></div>
-            {isMoreBttm ? 
-            (<>
-              <div className="expanded" id="expanded-artist">
-                <p>
-                  As a singer, my goal is to master the art of singing with ease; achieving good pitch, maintaining a pleasing tone, employing a range of tones, adding vibrato, and mastering all those technical elements. I have a deep appreciation for music created by artists I consider true, talented singers. Yet, I also aspire to connect deeply with my audience. I want them to at least grasp my perspective as I share my thoughts through song or spoken word. I aim to make you laugh when I convey humor and evoke profound emotions when you listen to my music. Establishing an emotional and organic connection, I believe, is the most genuine and crucial experience we can offer in this all-too-brief existence.
-                  <p></p>
-                  My greatest motivation always stems from kindness and fostering connections that reveal our commonalities as people, transcending our differences.
-                  <span> </span>
-                  <a onClick={expandBttmTxt} className="moreLess">less</a></p>
-              <a href="/album"><img id='listen-btn' src="./listenBtn.svg" alt="" /></a>
+        <div id="artist-div" className="gear-text">
+          <img id='gear-artist' className='about-gear' src="./aboutGearRight.svg" alt="" />
+          <div className='gear-expandable-spacer'></div>
+          {isMoreBttm ? 
+          (<>
+            <div className="expanded" id="expanded-artist">
+              <p>
+                As a singer, my goal is to master the art of singing with ease; achieving good pitch, maintaining a pleasing tone, employing a range of tones, adding vibrato, and mastering all those technical elements. I have a deep appreciation for music created by artists I consider true, talented singers. Yet, I also aspire to connect deeply with my audience. I want them to at least grasp my perspective as I share my thoughts through song or spoken word. I aim to make you laugh when I convey humor and evoke profound emotions when you listen to my music. Establishing an emotional and organic connection, I believe, is the most genuine and crucial experience we can offer in this all-too-brief existence.
+                <p></p>
+                My greatest motivation always stems from kindness and fostering connections that reveal our commonalities as people, transcending our differences.
+                <span> </span>
+                <a onClick={expandBttmTxt} className="moreLess">less</a>
+              </p>
+              <a href="/album">
+                <img id='about-book-btn' src="./aboutBook.svg" alt="" />
+              </a>
             </div>
             </>) 
-            : 
-            (
-              <div className="expandable" id="expandable-artist">
-                <p>
-                  As a singer, my goal is to master the art of singing with ease; achieving good pitch, maintaining a pleasing tone, employing a range of tones, adding... 
-                  <span> </span>
-                  <a onClick={expandBttmTxt} className="moreLess">more</a>
-                </p>
-                <a href="mailto:SPENCE@SPENCESINGS.com"><img id='about-book-btn' src="./aboutBook.svg" alt="" /></a>
-              </div>
+          : 
+          (
+            <div className="expandable" id="expandable-artist">
+              <p>
+                As a singer, my goal is to master the art of singing with ease; achieving good pitch, maintaining a pleasing tone, employing a range of tones, adding... 
+                <span> </span>
+                <a onClick={expandBttmTxt} className="moreLess">more</a>
+              </p>
+              <a href="mailto:SPENCE@SPENCESINGS.com">
+                <img id='about-book-btn' src="./aboutBook.svg" alt="" />
+              </a>
+            </div>
             )}
-          </div>
+        </div>
       </main>
         {/* <div className='mobile-only'>
           <div id='mobile1' className='mobileTxt-container'>
