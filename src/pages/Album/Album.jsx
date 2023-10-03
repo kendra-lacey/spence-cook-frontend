@@ -36,9 +36,8 @@ const Album = () => {
 
       <div id='about-album-container'>
         <h1>Behind the music...</h1>
+        {/* <div id='about-album-body'></div> */}
         <div id='album-carousel-container'>
-          {/* <img id='album-left' src="./albumLeft.png" alt="" />
-          <img id='album-right' src="./albumRight.png" alt="" /> */}
           <AlbumCarousel />
         </div>
         <div id='album-info'>
