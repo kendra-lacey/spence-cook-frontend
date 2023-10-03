@@ -88,6 +88,10 @@
   right: 0;
 }
 
+#artist-div {
+  margin-bottom: 5%;
+}
+
 .moreLess {
   color: #2E9D29;
   text-decoration: underline;
