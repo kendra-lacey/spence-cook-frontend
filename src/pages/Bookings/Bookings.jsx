@@ -19,7 +19,7 @@ const Bookings = () => {
           <div id='loc2' className='loc-container'>
             <img className='loc-icon' src="./locationIcon.svg" alt="" />
             <p className='loc-txt'>
-              <a className='loc-link' href="https://maps.app.goo.gl/1tWUF5p49v8maowR9">Roxbury, New Jersey</a>
+              <a className='loc-link' href="https://maps.app.goo.gl/zc1386rqe9rMk6cg6">Roxbury, New York</a>
             </p>
           </div>
         </div>
