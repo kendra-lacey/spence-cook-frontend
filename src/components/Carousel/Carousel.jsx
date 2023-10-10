@@ -34,13 +34,13 @@ const Carousel = () => {
   // }
 
   const spenceImgs = [
-    './spence6.png',
     './spence0.png',
     './spence1.png',
     './spence2.png',
     './spence3.png',
     './spence4.png',
     './spence5.png',
+    './spence6.png',
   ]
 
 
