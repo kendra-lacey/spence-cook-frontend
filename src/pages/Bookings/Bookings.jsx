@@ -24,7 +24,7 @@ const Bookings = () => {
           </div>
         </div>
         <div id='book-btn-container'>
-          <a id='book-a' href="mailto:SPENCE@SPENCESINGS.com?subject=Booking"><img id='book-page-btn' src="./bookingBtn.svg" alt="" /></a>
+          <a id='book-a' href="mailto:SPENCE@SPENCESINGS.com"><img id='book-page-btn' src="./bookingBtn.svg" alt="" /></a>
         </div>
       </div>
     </ main>
