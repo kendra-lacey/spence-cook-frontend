@@ -14,35 +14,41 @@
   background-size: cover;
 }
 
-#book-body-container {
+#book-body-container-right {
   /* margin-top: 8vh; */
   width: 50%;
   height: 80vh;
   position: absolute;
   right: 0;
+  top: 20%;
   /* left: 0; */
   /* padding-top: 5vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1vmin;
+}
+
+#book-body-container-left {
+    /* margin-top: 8vh; */
+    width: 45%;
+    height: 80vh;
+    position: absolute;
+    left: 0;
+    top: 20%;
+    /* left: 0; */
+    /* padding-top: 5vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1vmin;
 }
 
 
 
-#blob-book {
-  /* background-image: url('./bookBlob.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  min-height: 30vh;
-  min-width: 30vw;
-  text-align: center;
-  font-size: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
+.bookings-div {
   max-width: 65%;
   padding: 1vmin;
   text-align: center;
@@ -54,6 +60,20 @@
   background-color: white;
   border-radius: 20px;
   border: 2px solid #2E9D29;
+}
+
+#upcoming-show>h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+#upcoming-show>a {
+  color: black;
+}
+
+#upcoming-show>a:hover {
+  color: #2E9D29;
 }
 
 #blob-book>p {
@@ -73,6 +93,7 @@
 
 .loc-link:hover {
   text-decoration: underline;
+  color: #2E9D29;
 }
 
 .loc-txt {
