@@ -11,7 +11,7 @@ const Bookings = () => {
       <div className='book-body-container' id='book-body-container-left'>
         <div className='bookings-div' id='upcoming-show'>
           <h1>UPCOMING SHOW</h1>
-          <p>SAT Dec 30th | 8:00 PM | Zada's in Margaretville</p>
+          <p>SAT DEC 30th | 8:00 PM | Zada's in Margaretville</p>
           <img className='upcoming-show-image'src='/spencezadas1.jpeg' alt='spence playing at zadas'></img>
         </div>
       </div>
