@@ -35,10 +35,10 @@ const Carousel = () => {
 
   const spenceImgs = [
     './spence0.png',
-    './spence1.png',
-    './spence2.png',
+    './spence1.jpeg',
+    './spence2.jpeg',
     './spence3.png',
-    './spence4.png',
+    './spence4.jpeg',
     './spence5.png',
     './spence6.png',
   ]
