@@ -10,7 +10,7 @@
   z-index: -1;
   width: 100%;
   height: 82vh;
-  background-image: url('./bookingBackground.png');
+  background-image: url('/bookingBackground.png');
   background-size: cover;
 }
 
@@ -64,6 +64,11 @@
   z-index: 5;
 }
 
+.upcoming-show-image {
+  max-width:100%;
+  height:auto;
+  border-radius: 10%;
+}
 
 #upcoming-show>h1 {
   margin: 0;
@@ -181,8 +186,16 @@
     height: 77vh;
   }
 
+
+  .bookings-divs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   #book-body-container-left {
-    width: 80%;
+    width: 90%;
   }
 
   #book-body-container-right {
@@ -205,6 +218,8 @@
   #blob-book {
     font-size: 14px;
   }
+
+  
 
   /* .loc-txt {
     font-size: 12px;

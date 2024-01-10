@@ -7,13 +7,15 @@ const Bookings = () => {
       <div id='book-back-container'>
         {/* <div id='book-back-nav'></div> */}
       </div>
-      <div className='book-body-container' id='book-body-container-left'>
+      <div className='booking-divs-container'>
+      {/* <div className='book-body-container' id='book-body-container-left'>
         <div className='bookings-div' id='upcoming-show'>
           <h1>UPCOMING SHOW</h1>
-          <p>SAT NOV 11th | 5:00 PM | Zada's in Margaretville</p>
-          <a href="https://calendar.boomte.ch/single/bmhH9W2rM6lqhA8J7tH9eM6?comp_id=comp-lg9brbi0&instance=B0RWCmHB27ex70hpMVtjjHGZM3hMZWy2qJ6cyx65b60I4zJCoN07xe72BeyJpbnN0YW5jZUlkIjoiZmVkYzA5NTUtN2QxZS00YWI5LWEwOTItNzY3NzAxYjljNzI3IiwiYXBwRGVmSWQiOiIxM2I0YTAyOC0wMGZhLTcxMzMtMjQyZi00NjI4MTA2YjhjOTEiLCJzaWduRGF0ZSI6IjIwMjMtMTAtMTFUMTg6Mzc6MTAuNTg5WiIsInZlbmRvclByb2R1Y3RJZCI6IlByZW1pdW0iLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjUxYjk0MDMxLWFhNmQtNGUxYS05YzYyLTlhZTI4YTU3YzUzZCIsInNpdGVPd25lcklkIjoiMTQ5NGZmZDAtZTQwYi00NjBhLTk4MjUtMTQwY2Q3OGZhMWUxIn0&startDate=">Click for More Details</a>
+          <p>SAT DEC 30th | 8:00 PM | Zada's in Margaretville</p>
+          {/* <a href="https://calendar.boomte.ch/single/bmhH9W2rM6lqhA8J7tH9eM6?comp_id=comp-lg9brbi0&instance=B0RWCmHB27ex70hpMVtjjHGZM3hMZWy2qJ6cyx65b60I4zJCoN07xe72BeyJpbnN0YW5jZUlkIjoiZmVkYzA5NTUtN2QxZS00YWI5LWEwOTItNzY3NzAxYjljNzI3IiwiYXBwRGVmSWQiOiIxM2I0YTAyOC0wMGZhLTcxMzMtMjQyZi00NjI4MTA2YjhjOTEiLCJzaWduRGF0ZSI6IjIwMjMtMTAtMTFUMTg6Mzc6MTAuNTg5WiIsInZlbmRvclByb2R1Y3RJZCI6IlByZW1pdW0iLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6IjUxYjk0MDMxLWFhNmQtNGUxYS05YzYyLTlhZTI4YTU3YzUzZCIsInNpdGVPd25lcklkIjoiMTQ5NGZmZDAtZTQwYi00NjBhLTk4MjUtMTQwY2Q3OGZhMWUxIn0&startDate=">Click for More Details</a> */}
+          {/* <img src='./spence0.jpeg' alt='Spence Playing at Zadas'className='upcoming-show-image'></img>
         </div>
-      </div>
+      </div> */} 
       <div className='book-body-container' id='book-body-container-right'>
         <div className='bookings-div' id="blob-book">
           <p>Do you have questions, want to book a show, or collaborate on a new piece? Reach out, and let's make music happen.</p>
@@ -33,6 +35,7 @@ const Bookings = () => {
         <div id='book-btn-container'>
           <a id='book-a' href="mailto:SPENCE@SPENCESINGS.com"><img id='book-page-btn' src="./bookingBtn.svg" alt="" /></a>
         </div>
+      </div>
       </div>
     </ main>
   );
