@@ -36,9 +36,17 @@ const About = () => {
           (<>
             <div className="expanded" id="expanded-artist">
               <p>
-                As a singer, my goal is to master the art of singing with ease; achieving good pitch, maintaining a pleasing tone, employing a range of tones, adding vibrato, and mastering all those technical elements. I have a deep appreciation for music created by artists I consider true, talented singers. Yet, I also aspire to connect deeply with my audience. I want them to at least grasp my perspective as I share my thoughts through song or spoken word. I aim to make you laugh when I convey humor and evoke profound emotions when you listen to my music. Establishing an emotional and organic connection, I believe, is the most genuine and crucial experience we can offer in this all-too-brief existence.
-                <p></p>
-                My greatest motivation always stems from kindness and fostering connections that reveal our commonalities as people, transcending our differences.
+              Spence grew up in Virginia Beach, VA. He spent his young years working with his family in
+the flower business. A desire to perform drew him away from Virginia and landed him in
+Manhattan. Covering pop songs, Spence performed regularly for years on cabaret stages in
+the city including Don’t Tell Mama, The Duplex, and The Slipper Room. Jobs and life
+circumstances led him away from the stage and landed him at the Jersey Shore. As he
+approached his 50th birthday, he realized that he really needed to start performing again.
+Spence went back to vocal coaching to get his voice in shape and began writing his own
+songs. In 2022, he released his debut album “Rearview” which is available on all music
+streaming platforms. Spence now accompanies himself on keyboard and has been
+performing regularly in various venues in Delaware County in the Catskills. He is currently
+working on material for a new album project.
                 <span> </span>
                 <a onClick={expandBttmTxt} className="moreLess">less</a>
               </p>
@@ -50,7 +58,10 @@ const About = () => {
             : 
             (
             <div className="expandable" id="expandable-artist">
-              <p>As a singer, my goal is to master the art of singing with ease; achieving good pitch, maintaining a pleasing tone, employing a range of tones, adding vibrato, and mastering all those technical elements.... 
+              <p>Spence grew up in Virginia Beach, VA. He spent his young years working with his family in
+the flower business. A desire to perform drew him away from Virginia and landed him in
+Manhattan. Covering pop songs, Spence performed regularly for years on cabaret stages in
+the city including Don’t Tell Mama, The Duplex, and The Slipper Room..... 
                 <span> </span>
                 <a onClick={expandBttmTxt} className="moreLess">more</a>
               </p>
@@ -70,9 +81,13 @@ const About = () => {
             (<>
             <div className="expanded" id="expanded-music">
               <p>
-                I'd say that my primary motivation these days, the force that truly inspires and guides me, could be likened to a sense of a "midlife crisis," although that might sound a bit intense. As we approach midlife, the awareness of being nearer to the end than the beginning becomes more pronounced. It's natural to question the path we've chosen - have our decisions been right? What opportunities still lie ahead? What experiences have we missed, or what might be out of reach now? Is there any way to recapture a sense of youth before it truly slips away?
-                <p></p>
-                My album "Rearview" delves deep into these contemplations, exploring these very thoughts and feelings. As an artist who continues to evolve and understand himself, I find myself driven by a newfound commitment to paying attention. I'm focused on recognizing the things that genuinely move and touch us. Why am I drawn to this person? Why does that song bring tears to my eyes? Why do we feel attracted to certain people and things, even when there appears to be no logical explanation, yet it feels more authentic than anything reason can explain? I want to explore the full spectrum of emotions and feelings in life. I want to delve into what truly matters and what ultimately holds no significance in our lives.
+                “My album ‘Rearview’ explores midlife. When you face the reality that you’re nearer the end
+                than the beginning, you begin to pay more attention and also to question your life. Have I
+                made good choices? What did I miss? What lies ahead? Currently, I find myself more and
+                more fascinated with who and what moves us, touches us. Why am I drawn to this person?
+                What does that song bring tears to my eyes? I’m interested in understanding what touches
+                me personally, as well as how we connect with and share feelings with others. Sometimes
+                what we feel is more authentic and makes more sense than anything reason can explain.”
                 <span> </span>
                 <a onClick={expandTopTxt} className="moreLess">less</a>
               </p>
