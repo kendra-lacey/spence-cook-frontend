@@ -4,8 +4,6 @@ import './Carousel.css'
 
 const Carousel = () => {
   const [idx, setIdx] = useState(0)
-  // const [isMoreTop, setIsMoreTop] = useState(false)
-  // const [isMoreBttm, setIsMoreBttm] = useState(false)
   const length = 7
 
   const handlePrev = () => {
@@ -18,20 +16,7 @@ const Carousel = () => {
     setIdx(newIdx >= length ? 0 : newIdx)
   }
 
-  // const expandTopTxt = () => {
-  //   if (isMoreTop) {
-  //     setIsMoreTop(false)
-  //   } else {
-  //     setIsMoreTop(true)
-  //   }
-  // }
-  // const expandBttmTxt = () => {
-  //   if (isMoreBttm) {
-  //     setIsMoreBttm(false)
-  //   } else {
-  //     setIsMoreBttm(true)
-  //   }
-  // }
+  
 
   const spenceImgs = [
     './spence0.png',
