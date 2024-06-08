@@ -83,7 +83,9 @@ the city including Don’t Tell Mama, The Duplex, and The Slipper Room.....
               <p>
                 “My album ‘Rearview’ explores midlife. When you face the reality that you’re nearer the end
                 than the beginning, you begin to pay more attention and also to question your life. Have I
-                made good choices? What did I miss? What lies ahead? Currently, I find myself more and
+                made good choices? What did I miss? What lies ahead? 
+                <br />
+                Currently, I find myself more and
                 more fascinated with who and what moves us, touches us. Why am I drawn to this person?
                 What does that song bring tears to my eyes? I’m interested in understanding what touches
                 me personally, as well as how we connect with and share feelings with others. Sometimes
@@ -99,7 +101,9 @@ the city including Don’t Tell Mama, The Duplex, and The Slipper Room.....
             : 
             (
             <div className="expandable" id="expandable-music">
-              <p>I'd say that my primary motivation these days, the force that truly inspires and guides me, could be likened to a sense of a "midlife crisis," although that might sound a bit intense.... 
+              <p>“My album ‘Rearview’ explores midlife. When you face the reality that you’re nearer the end
+                than the beginning, you begin to pay more attention and also to question your life. Have I
+                made good choices? What did I miss? What lies ahead?.... 
                 <span> </span>
                 <a onClick={expandTopTxt} className="moreLess">more</a>
               </p>
