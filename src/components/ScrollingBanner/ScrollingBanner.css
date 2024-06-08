@@ -1,8 +1,57 @@
+.marquee-container {
+  position: fixed;
+  top: 40px; /* Adjust this value based on your navbar height */
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 999; /* Ensure it stays below the navbar but above other content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px; /* Adjust based on your text height */
+}
+
+.marquee {
+  display: inline-block;
+  white-space: nowrap;
+  position: absolute;
+  width: 100%;
+}
+
+.marquee-content {
+  display: flex;
+  width: 250%; /* Double the width to accommodate the duplicate text */
+  animation: marquee 20s linear infinite;
+}
+
+.marquee-content span {
+  display: inline-block;
+  width: 50%; /* Each span takes half of the marquee-content width */
+}
+
 @keyframes marquee {
-  0% {
-    transform: translateX(100%);
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* Move by 50% to match the width of one set of text */
+}
+
+.link {
+  color: #2E9D29;
+  text-decoration: underline;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  .marquee-container {
+    top: 50px; /* Adjust based on your mobile navbar height */
+    height: 40px; /* Adjust based on your mobile text height */
   }
-  100% {
-    transform: translateX(-100%);
+
+  .marquee-content span {
+    font-size: 14px; /* Adjust based on your mobile text size */
+    line-height: 40px; /* Match the container height to vertically center the text */
+  }
+
+  .link {
+    font-size: 14px;
   }
 }

@@ -2,27 +2,23 @@
   margin-top: 0;
   height: 100vh;
   width: 100vw;
-  /* padding-bottom: 8vh; */
 }
 
 #book-back-container {
   position: absolute;
   z-index: -1;
   width: 100%;
-  height: 82vh;
+  height: 100vh;
   background-image: url('/bookingBackground.png');
   background-size: cover;
 }
 
 #book-body-container-right {
-  /* margin-top: 8vh; */
   width: 50%;
   height: 80vh;
   position: absolute;
   right: 0;
   top: 20%;
-  /* left: 0; */
-  /* padding-top: 5vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,14 +27,11 @@
 }
 
 #book-body-container-left {
-    /* margin-top: 8vh; */
     width: 45%;
     height: 80vh;
     position: absolute;
     left: 0;
     top: 20%;
-    /* left: 0; */
-    /* padding-top: 5vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,11 +135,6 @@
     max-width: 90%;
   }
 
-  /* #blob-book {
-    max-width: 100%;
-    font-size: 24px;
-  } */
-
   #book-page-btn {
     max-width: 60%;
   }
@@ -160,21 +148,14 @@
     width: 55%;
     left: 0;
     top: 15%;
-    /* gap: 5vmin; */
   }
+
   #book-body-container-right {
     width: 55%;
     right: 0;
     top: 0;
-    /* bottom: 20%; */
     justify-content: flex-end;
-    /* gap: 5vmin; */
   }
-
-  /* #blob-book {
-    max-width: 100%;
-    font-size: 20px;
-  } */
 
   #book-page-btn {
     max-width: 50%;
@@ -219,18 +200,5 @@
     font-size: 14px;
   }
 
-  
 
-  /* .loc-txt {
-    font-size: 12px;
-  } */
-
-  /* #book-btn-container {
-    height: 77vh;
-    padding-bottom: 10%;
-  } */
-
-  /* #book-page-btn {
-    max-width: 80%;
-  } */
 }

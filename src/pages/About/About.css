@@ -50,8 +50,6 @@
   background-color: white;
   border-radius: 20px;
   border: 2px solid #2E9D29;
-  /* position: relative;
-  top: 1vh; */
 }
 .expanded {
   width: 78%;
@@ -92,10 +90,6 @@
   right: 1%;
 }
 
-
-#artist-div {
-  margin-bottom: 5%;
-}
 
 .moreLess {
   color: #2E9D29;
