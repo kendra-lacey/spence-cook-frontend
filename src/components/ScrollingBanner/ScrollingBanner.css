@@ -1,7 +1,7 @@
 .marquee-container {
   position: fixed;
-  top: 40px; /* Adjust this value based on your navbar height */
-  width: 100%;
+  top: 60px; /* Adjust this value based on your navbar height */
+  width: 100vw; /* Ensure it spans the full width of the viewport */
   overflow: hidden;
   white-space: nowrap;
   z-index: 999; /* Ensure it stays below the navbar but above other content */
@@ -9,49 +9,55 @@
   align-items: center;
   justify-content: center;
   height: 50px; /* Adjust based on your text height */
+  left: 0; /* Ensure it starts from the left edge */
 }
 
 .marquee {
   display: inline-block;
   white-space: nowrap;
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 
 .marquee-content {
-  display: flex;
-  width: 250%; /* Double the width to accommodate the duplicate text */
-  animation: marquee 20s linear infinite;
-}
-
-.marquee-content span {
   display: inline-block;
-  width: 50%; /* Each span takes half of the marquee-content width */
+  padding-left: 100%; /* Push initial content out of view */
+  animation: marquee 40s linear infinite;
 }
 
 @keyframes marquee {
   0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); } /* Move by 50% to match the width of one set of text */
+  100% { transform: translateX(-100%); }
 }
 
-.link {
-  color: #2E9D29;
+.marquee-svg text {
+  font-size: 24px !important;
+  fill: black;
+  letter-spacing: 2px;
+}
+
+.marquee-svg .marquee-link {
+  font-size: 24px !important;
+  fill: #2E9D29;
   text-decoration: underline;
 }
 
 /* Media Queries for Mobile Responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .marquee-container {
-    top: 50px; /* Adjust based on your mobile navbar height */
+    top: 80px; /* Adjust based on your mobile navbar height */
     height: 40px; /* Adjust based on your mobile text height */
   }
 
-  .marquee-content span {
-    font-size: 14px; /* Adjust based on your mobile text size */
-    line-height: 40px; /* Match the container height to vertically center the text */
+  .marquee-svg text {
+    font-size: 16px !important;
   }
 
-  .link {
-    font-size: 14px;
+  .marquee-svg .marquee-link {
+    font-size: 16px !important;
+  }
+
+  .marquee-content {
+    animation: marquee 30s linear infinite; /* Faster animation for mobile */
   }
 }

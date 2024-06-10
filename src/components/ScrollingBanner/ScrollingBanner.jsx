@@ -3,6 +3,7 @@
 import './ScrollingBanner.css'
 
 
+
 const ScrollingBanner = ({ message, link }) => {
   return (
     <div className="marquee-container">
@@ -48,5 +49,8 @@ const linkStyle = {
   textDecoration: 'underline'
 };
 
-export default ScrollingBanner;
+export default ScrollingBanner
+
+
+
 
