@@ -1,15 +1,15 @@
 .marquee-container {
   position: fixed;
-  top: 60px; /* Adjust this value based on your navbar height */
-  width: 100vw; /* Ensure it spans the full width of the viewport */
+  top: 35px; /* Adjust this value based on your navbar height */
+  width: 100vw; 
   overflow: hidden;
   white-space: nowrap;
-  z-index: 999; /* Ensure it stays below the navbar but above other content */
+  z-index: 999; 
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50px; /* Adjust based on your text height */
-  left: 0; /* Ensure it starts from the left edge */
+  height: 50px; 
+  left: 0; 
 }
 
 .marquee {
@@ -43,18 +43,14 @@
 }
 
 /* Media Queries for Mobile Responsiveness */
-@media (max-width: 600px) {
+@media (max-width: 815px) {
   .marquee-container {
     top: 80px; /* Adjust based on your mobile navbar height */
     height: 40px; /* Adjust based on your mobile text height */
   }
 
-  .marquee-svg text {
-    font-size: 16px !important;
-  }
-
-  .marquee-svg .marquee-link {
-    font-size: 16px !important;
+  .marquee textPath {
+    font-size: 18px !important;
   }
 
   .marquee-content {
