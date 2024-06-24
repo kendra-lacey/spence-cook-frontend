@@ -11,10 +11,10 @@ const Bookings = () => {
       <div className='book-body-container' id='book-body-container-left'>
         <div className='bookings-div' id='upcoming-show'>
           <h1>UPCOMING SHOWS</h1>
-          <p>WED JUNE 19th | 7:00 PM | Cafe Artiste at the Jersey Shore Arts Center</p>
-          <a href="https://www.jerseyshoreartscenter.org/cafe-artiste"> Venue Link </a>
+          {/* <p>WED JUNE 19th | 7:00 PM | Cafe Artiste at the Jersey Shore Arts Center</p>
+          <a href="https://www.jerseyshoreartscenter.org/cafe-artiste"> Venue Link </a> */}
           <p>SAT AUGUST 17th | Zadas in Margaretville  </p>
-          <a href="https://www.zadasbar.com/"> Venue Link </a>
+          <a href="https://www.zadasbar.com/events"> Venue Link </a>
         </div>
       </div>
       <div className='book-body-container' id='book-body-container-right'>
