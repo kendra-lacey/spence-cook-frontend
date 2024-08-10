@@ -7,7 +7,7 @@ import ScrollingBanner from '../../components/ScrollingBanner/ScrollingBanner';
 const Landing = () => {
   return (
     <main id='landing-main'>
-        <ScrollingBanner message="Upcoming Event: Playing Live @  Zada's in Margaretville on August 17th" link="/bookings" />
+        <ScrollingBanner message="Upcoming Event: Playing Live @  Zada's in Margaretville on August 17th @ 8PM" link="/bookings" />
       <div className='landing-background'>
           <img id='landing-img' src="./landingImg.png" alt="Stylized image of musician Spence Cook"/>
       </div>

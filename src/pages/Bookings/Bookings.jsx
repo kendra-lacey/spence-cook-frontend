@@ -13,7 +13,7 @@ const Bookings = () => {
           <h1>UPCOMING SHOWS</h1>
           {/* <p>WED JUNE 19th | 7:00 PM | Cafe Artiste at the Jersey Shore Arts Center</p>
           <a href="https://www.jerseyshoreartscenter.org/cafe-artiste"> Venue Link </a> */}
-          <p>SAT AUGUST 17th | Zadas in Margaretville  </p>
+          <p>SAT AUGUST 17th | Zadas in Margaretville | 8PM </p>
           <a href="https://www.zadasbar.com/events"> Venue Link </a>
         </div>
       </div>
@@ -24,7 +24,7 @@ const Bookings = () => {
             <img className='loc-icon' src="./locationIcon.svg" alt="" />
             <p className='loc-txt'>
               <a className='loc-link' href="https://maps.app.goo.gl/FQrHDNyRiXCw7arL9">Asbury Park, New Jersey</a>
-            </p>
+            </p>git 
           </div>
           <div id='loc2' className='loc-container'>
             <img className='loc-icon' src="./locationIcon.svg" alt="" />
