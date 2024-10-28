@@ -11,9 +11,7 @@ const Bookings = () => {
       <div className='book-body-container' id='book-body-container-left'>
         <div className='bookings-div' id='upcoming-show'>
           <h1>UPCOMING SHOWS</h1>
-          {/* <p>WED JUNE 19th | 7:00 PM | Cafe Artiste at the Jersey Shore Arts Center</p>
-          <a href="https://www.jerseyshoreartscenter.org/cafe-artiste"> Venue Link </a> */}
-          <p>SAT AUGUST 17th | Zadas in Margaretville | 8PM </p>
+          <p>SAT OCTOBER 26th | Zadas in Margaretville | 6PM </p>
           <a href="https://www.zadasbar.com/events"> Venue Link </a>
         </div>
       </div>
