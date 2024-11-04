@@ -9,11 +9,11 @@ const Bookings = () => {
       </div>
       <div className='booking-divs-container'>
       <div className='book-body-container' id='book-body-container-left'>
-        <div className='bookings-div' id='upcoming-show'>
+        {/* <div className='bookings-div' id='upcoming-show'>
           <h1>UPCOMING SHOWS</h1>
           <p>SAT OCTOBER 26th | Zadas in Margaretville | 6PM </p>
           <a href="https://www.zadasbar.com/events"> Venue Link </a>
-        </div>
+        </div> */}
       </div>
       <div className='book-body-container' id='book-body-container-right'>
         <div className='bookings-div' id="blob-book">
